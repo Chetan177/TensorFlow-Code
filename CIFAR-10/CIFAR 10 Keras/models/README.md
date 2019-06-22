@@ -7,10 +7,10 @@
 ###  use this code to simply load the model
 
 '''
-from tensorflow.keras.models import load_model
+
+from tensorflow.keras.models import load_model 
 
 new_model = load_model("models/cifar-10-keras.h5")
-
 new_model.summary()  # For model summary
 
 '''
